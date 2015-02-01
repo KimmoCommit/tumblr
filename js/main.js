@@ -1,3 +1,3 @@
 $(function(){
-    $('body').append('<h1>Hola, {{yourName}}');
+    $('body').append('<h1>Hola, {{yourName}}</h1>');
   });
