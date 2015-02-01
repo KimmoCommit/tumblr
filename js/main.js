@@ -1,5 +1,6 @@
 $(function(){
 
-	console.log("holahola");
-	console.log(Tumblr.USER_TAGS);
+$('body').append('<h1>Hello, {{ yourName }}!</h1>');
+
 });
+
