@@ -1,6 +1,4 @@
-$(function(){
+var app = angular.module("search", []);
 
-$('body').append('<h1>Hello, {{ yourName }}!</h1>');
 
-});
-
+$('body').append('<h1>Hola, {yourName}');
