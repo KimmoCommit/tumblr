@@ -1,0 +1,11 @@
+<h1> Hello world</h1>
+  <ol id="posts">
+      {block:Posts}A{block:Text}B
+              <li class="post text">
+                  {block:Title}
+                      <h3><a href="{Permalink}">{Title}</a></h3>
+                  {/block:Title}{Body}
+              </li>
+          {/block:Text}
+      {/block:Posts}
+  </ol>
